@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformersdle - Devine le Transformer du jour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>TRANSFORMERS<span class="highlight">DLE</span></h1>
+        <p class="subtitle">Devine le Transformer caché du jour !</p>
+    </header>
+
+    <main class="game-container">
+        <div class="search-box">
+            <input type="text" id="character-input" placeholder="Entrez le nom d'un Autobot ou Decepticon...">
+            <button id="submit-btn">Valider</button>
+        </div>
+
+        <div class="properties-header">
+            <div class="prop-title">Robot</div>
+            <div class="prop-title">Faction</div>
+            <div class="prop-title">Génération</div>
+            <div class="prop-title">Mode Alternatif</div>
+            <div class="prop-title">Couleur</div>
+        </div>
+
+        <div id="guesses-container">
+            
+            <div class="guess-row">
+                <div class="box gray">Optimus Prime</div>
+                <div class="box correct">Autobot</div> <div class="box wrong">G1</div>        <div class="box partial">Camion</div>   <div class="box correct">Bleu/Rouge</div>
+            </div>
+            
+        </div>
+    </main>
+
+</body>
+</html>
